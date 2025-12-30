@@ -1,0 +1,22 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# COCO8 dataset (first 8 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco8/
+# Example usage: yolo train data=coco8.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco8 ← downloads here (1 MB)
+
+path: D:/yolo/datasets/coco8
+train: images/train
+val: images/val
+
+
+# Classes
+names:
+  0: person
+
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco8.zip
